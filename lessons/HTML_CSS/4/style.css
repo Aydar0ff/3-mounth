@@ -1,0 +1,36 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 87%;
+    margin: 0 auto;
+    display: flex; /*flex-direction: column; поворачивает на 90 градусов */
+    justify-content: space-evenly;/*flex-start,center,space-around,space-between*/
+    background-color: yellow;
+    height: 600px;
+    align-items: flex-end; /*center, flex-start*/
+}
+
+.container .col{
+    width: 22%;
+    height: 200px;
+    background-color: red;
+}
+.flex_wrap{
+    width: 87%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+}
+.flex_wrap .col{
+    width: 40%;
+    height: 200px;
+    margin-bottom: 20px;
+    background-color: red;
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+}

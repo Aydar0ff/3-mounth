@@ -1,0 +1,73 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    color: tomato;
+}
+header{
+    background-color: #252525;
+    margin-bottom: 40px;
+}
+header h1, header ul{
+    display: inline-block;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+}
+nav{
+    width: 87%;
+    margin: 0 auto;
+}
+
+.title{
+    background-color: red;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+p{
+    width: 350px;
+    border: 2px solid red; /*dashed, dotted */
+    padding: 20px;
+    margin: 20px 10%;
+    /* padding: 20px 40px 60px 30px; */
+    /*padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 60px;
+    padding-left: 30px; */
+    display: inline-block;
+}
+
+.first_text{
+    box-sizing: content-box;
+    font-size: 300;
+    font-weight: italic;
+    text-transform: capitalize;/* uppercase, lowercase, capialize*/
+}
+.second_text{
+    box-sizing: border-box;
+    line-height: 25px;
+    letter-spacing: 3px;
+    border-radius: 15%;
+}
+.link{
+    width: 120px;
+}
+
+.line{
+    height: 3px;
+    width: 0;
+    background-color: red;
+    border-radius: 3px;
+    transition: 0.3s all linear;
+}
+
+.link:hover .line{
+    width: 100%;
+}

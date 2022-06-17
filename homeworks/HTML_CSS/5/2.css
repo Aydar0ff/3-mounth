@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.logo{
+    align-items: center;
+    color: #fff;
+    display: flex;
+    background-color: blue;
+    justify-content: space-around;
+    width: 100%;
+    height: 80px;
+    font-size: 20px;
+    padding-left: 30px;
+}
+.first{
+    margin-right: 400px;
+}
+.ll{
+    border: 1px solid rgb(43, 39, 39);
+    border-radius: 5%;
+    width: 400px;
+    height: 200px;
+    padding: 5px;
+    margin-bottom: 70px;
+    margin: auto;
+}
+h4{
+    text-align: center;
+}

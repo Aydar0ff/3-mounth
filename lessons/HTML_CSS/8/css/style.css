@@ -1,0 +1,40 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+header .container ul, header .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+header {
+  background-color: #252525;
+}
+header .container {
+  width: 87%;
+  margin: 0 auto;
+  color: #fff;
+  padding-top: 20px;
+}
+header .container ul {
+  width: 70%;
+}
+header .container ul li {
+  list-style: none;
+  padding-top: 15px;
+}
+header .container ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: 0.3s all linear;
+  transition: 0.3s all linear;
+}
+header .container ul li a:hover {
+  font-size: 18px;
+  color: tomato;
+}
+
+/*# sourceMappingURL=style.css.map */

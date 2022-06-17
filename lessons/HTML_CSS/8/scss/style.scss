@@ -1,0 +1,50 @@
+@import "./start.scss";
+
+%flex-between{
+    display: flex;
+    justify-content: space-around;
+}
+
+@mixin hover-elements($hover-prop, $hover-color, $hover-prop2, $hover-color2 ) {
+    transition: 00.3s all linear;
+    &:hover {
+        #{$hover-prop}: $hover-color;
+        #{$hover-prop2}: $hover-color2;
+    }
+}
+
+$font-color: #ffffff;
+
+header{
+    background-color: #252525;
+
+    .container{
+        width: 87%;
+        margin: 0 auto;
+        color: #fff;
+
+        @extend %flex-between;
+
+        padding: {
+            top: 20px;
+        }
+
+        ul{
+            width: 70%;
+            @extend %flex-between;
+            
+            li{
+                list-style: none;
+                padding-top: 5px + 10px;
+
+                a{
+                    color: $font-color;
+                    text-decoration: none;
+                    transition: 0.3s all linear;
+                    
+                    @include hover-elements(font-size, 18px, color, tomato)
+                }
+            }
+        }
+    }
+}

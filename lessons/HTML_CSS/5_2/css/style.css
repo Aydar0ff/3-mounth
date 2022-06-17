@@ -1,0 +1,47 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.img_test .container{
+    width: 87%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img_test .col{
+    width: 28%;
+}
+
+.img_test{
+    background: linear-gradient(to right, purple, black );
+}
+
+.img_test .col img{
+    height: 250px;
+    width: 100%;
+    border: 1px solid red;
+}
+
+.img_test .col:first-child img{
+    object-fit: contain;
+    object-position: 0px 0px;
+}
+
+.img_test .col:nth-child(2) img{
+    object-fit: cover;
+    object-position: left;
+}
+
+.img_test .col:last-child img{
+    object-fit: fill;
+}
+form{
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    width: 40%;
+    margin: 0 auto;
+}
